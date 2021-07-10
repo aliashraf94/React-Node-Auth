@@ -14,6 +14,7 @@ function App() {
   return (
     <BrowserRouter>
     <nav>
+      <h1>This is nav bar</h1>
       <ul>
         <li><Link to="/Home" > Home </Link></li>
         <li><Link to="/signup" > Signup </Link></li>
