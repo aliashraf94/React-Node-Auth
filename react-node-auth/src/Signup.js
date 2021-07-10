@@ -1,13 +1,14 @@
 import React from "react"
+import './App.css';
 
 const Signup = () => {
     return(
-        <div>
-            <h1>Signup</h1>
-            <input type="text" name="name" placeholder="name" />
-            <input type="text" name="email" placeholder="email" /> 
-            <input type="text" name="password" placeholder="username" />
-            <button>Signup</button>
+        <div class="form" >
+            <h1>Sign up</h1>
+            <input type="text" name="name" placeholder="Name" />
+            <input type="text" name="email" placeholder="Email" /> 
+            <input type="text" name="password" placeholder="Password" />
+            <button>Sign up</button>
         </div>
     )
 }

@@ -13,13 +13,13 @@ import Login from "./Login"
 function App() {
   return (
     <BrowserRouter>
-    <nav>
-      <h1>This is nav bar</h1>
-      <ul>
-        <li><Link to="/Home" > Home </Link></li>
-        <li><Link to="/signup" > Signup </Link></li>
-        <li><Link to="/login" > Login </Link></li>
-      </ul>
+    <nav class="nav-bar" >
+      <h1 text >Migracode Barcelona </h1>
+      <div class="nav-bar-links">
+        <Link to="/home" > Home </Link>
+        <Link to="/signup" > Sign up </Link>
+        <Link to="/login" > Log in </Link>
+      </div>
     </nav>
     <Switch>
       <Route path="/home" exact component={Home} />
