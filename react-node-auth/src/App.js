@@ -16,13 +16,13 @@ function App() {
     <nav class="nav-bar" >
       <h1 text >Migracode Barcelona </h1>
       <div class="nav-bar-links">
-        <Link to="/home" > Home </Link>
+        <Link to="/" > Home </Link>
         <Link to="/signup" > Sign up </Link>
         <Link to="/login" > Log in </Link>
       </div>
     </nav>
     <Switch>
-      <Route path="/home" exact component={Home} />
+      <Route path="/" exact component={Home} />
       <Route path="/signup" component={Signup} />
       <Route path="/login" component={Login} />
     </Switch>
